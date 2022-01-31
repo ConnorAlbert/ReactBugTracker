@@ -32,4 +32,4 @@ To Visit App:
 ## Reflection
 
   -  I created this app as a way to learn new technologies while also making something i could use in the future.
-  - This app uses React, JavaScript, Spring Boot, and MySQL i deployed react to netlify and Spring Boot backend to heroku.
+  - This app uses React, JavaScript, Spring Boot, and MySQL I deployed react to netlify and Spring Boot backend to heroku.
