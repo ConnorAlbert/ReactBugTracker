@@ -3,12 +3,16 @@ import IssueService from '../services/IssueService'
 
 class ViewIssueComponent extends Component {
     constructor(props) {
-        super(props)
+        super(props);
+        this.handleBack=this.handleBack.bind(this)
 
         this.state = {
             id: this.props.match.params.id,
             issue: {}
         }
+    }
+    handleBack() {
+        this.props.history.goback()
     }
 
     componentDidMount(){
@@ -39,6 +43,9 @@ class ViewIssueComponent extends Component {
                         <div className = "rows">
                             <label> Description: </label>
                             <div className='data'> { this.state.issue.description }</div>
+                        </div>
+                        <div>
+                            <button className='btn-back' onClick={this.props.history.goBack}>Back</button>
                         </div>
                     </div>
 

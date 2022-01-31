@@ -38,7 +38,7 @@ class ListIssueComponent extends Component {
     render() {
         return (
             <div>
-                 <h2 className="text-center">Issue List</h2>
+                 <h2 className="text-center">Bug List</h2>
                  <div className = "row">
                     <button className="btn btn-primary" onClick={this.addIssue}> Add Issue</button>
                  </div>

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const ISSUE_API_BASE_URL = "https://issue-tracker-apps.herokuapp.com/api/v1/issues";
+const ISSUE_API_BASE_URL = "https://heroku-springbootbackend.herokuapp.com/api/v1/issues";
 
 class IssueService {
 

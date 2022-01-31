@@ -116,6 +116,7 @@ class CreateIssueComponent extends Component {
                           value={this.state.priority}
                           onChange={this.changePriorityHandler}
                         >
+                          <option value="" selected disabled hidden>Choose here</option>
                           <option value="Low">Low</option>
                           <option value="Medium">Medium</option>
                           <option value="High">High</option>
@@ -123,7 +124,7 @@ class CreateIssueComponent extends Component {
                         </select>
                       </label>
                     </div>
-                  <div className="form-group">
+                    <div className="form-group">
                       <div>
                         <label>
                           Status:
@@ -133,6 +134,7 @@ class CreateIssueComponent extends Component {
                             value={this.state.status}
                             onChange={this.changeStatusHandler}
                           >
+                            <option value="" selected disabled hidden>Choose here</option>
                             <option value="Open">Open</option>
                             <option value="Closed">Closed</option>
                             <option value="Fixed">Fixed</option>
