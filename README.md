@@ -8,9 +8,9 @@ An application used to track bugs throughout the software development life cycle
 
 This project is used to create, read, update, and delete bugs.
 
-## Project Screen Shot(s)
+## Live version
 
-https://prnt.sc/26m6fp2
+https://connor-albert.netlify.app/
 
 ## Installation and Setup Instructions
 
