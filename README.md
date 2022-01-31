@@ -29,7 +29,11 @@ To Visit App:
 
 `localhost:3000`  
 
-## Reflection
+## Technologies used
 
-  -  I created this app as a way to learn new technologies while also making something i could use in the future.
-  - This app uses React, JavaScript, Spring Boot, and MySQL I deployed react to Netlify and Spring Boot backend to Heroku.
+  - This app uses React, JavaScript, Spring Boot, MySQL, HTML, and CSS.
+  - I Deployed React to Netlify and Spring Boot backend to heroku.
+
+## Reflection
+ 
+ - I created this project to learn new technologies while also making something i could use in the future.
