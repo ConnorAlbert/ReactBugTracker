@@ -10,7 +10,7 @@ This project is used to create, read, update, and delete bugs.
 
 ## Live version
 
-https://connor-albert.netlify.app/
+https://react-bug-tracker.netlify.app/
 
 ## Installation and Setup Instructions
 
