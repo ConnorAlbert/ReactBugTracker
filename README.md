@@ -2,11 +2,12 @@
 
 #### Description:
 
-An application used to track bugs throughout the software development life cycle.
+A React application used to track bugs throughout the software development life cycle.
 
 #### Usage information:
 
-This project is used to create, read, update, and delete bugs.
+Allows users to Create, Read, Update, and Delete issues to keep track of current and
+previous bugs.
 
 ## Live version
 
@@ -34,6 +35,3 @@ To Visit App:
   - This app uses React, JavaScript, Spring Boot, MySQL, HTML, and CSS.
   - I Deployed React to Netlify and Spring Boot backend to heroku.
 
-## Reflection
- 
- - I created this project to learn new technologies while also making something i could use in the future.
